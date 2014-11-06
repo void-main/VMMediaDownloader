@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4181981A0B0D1D007C30B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4181971A0B0D1D007C30B2 /* main.m */; };
+		DF41819B1A0B0D1D007C30B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF41819A1A0B0D1D007C30B2 /* AppDelegate.m */; };
+		DF41819E1A0B0D1D007C30B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF41819D1A0B0D1D007C30B2 /* ViewController.m */; };
+		DF4181A11A0B0D1D007C30B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF41819F1A0B0D1D007C30B2 /* Main.storyboard */; };
+		DF4181A31A0B0D1D007C30B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4181A21A0B0D1D007C30B2 /* Images.xcassets */; };
+		DF4181A61A0B0D1D007C30B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4181A41A0B0D1D007C30B2 /* LaunchScreen.xib */; };
+		DF4181B21A0B0D1D007C30B2 /* VMMediaDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4181B11A0B0D1D007C30B2 /* VMMediaDownloaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF4181AC1A0B0D1D007C30B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF41818A1A0B0D1D007C30B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4181911A0B0D1D007C30B2;
+			remoteInfo = VMMediaDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF4181921A0B0D1D007C30B2 /* VMMediaDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMMediaDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4181961A0B0D1D007C30B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4181971A0B0D1D007C30B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF4181991A0B0D1D007C30B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF41819A1A0B0D1D007C30B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF41819C1A0B0D1D007C30B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF41819D1A0B0D1D007C30B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF4181A01A0B0D1D007C30B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF4181A21A0B0D1D007C30B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF4181A51A0B0D1D007C30B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF4181AB1A0B0D1D007C30B2 /* VMMediaDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMMediaDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4181B01A0B0D1D007C30B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4181B11A0B0D1D007C30B2 /* VMMediaDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMMediaDownloaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF41818F1A0B0D1D007C30B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4181A81A0B0D1D007C30B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4181891A0B0D1D007C30B2 = {
+			isa = PBXGroup;
+			children = (
+				DF4181941A0B0D1D007C30B2 /* VMMediaDownloader */,
+				DF4181AE1A0B0D1D007C30B2 /* VMMediaDownloaderTests */,
+				DF4181931A0B0D1D007C30B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4181931A0B0D1D007C30B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4181921A0B0D1D007C30B2 /* VMMediaDownloader.app */,
+				DF4181AB1A0B0D1D007C30B2 /* VMMediaDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4181941A0B0D1D007C30B2 /* VMMediaDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				DF4181991A0B0D1D007C30B2 /* AppDelegate.h */,
+				DF41819A1A0B0D1D007C30B2 /* AppDelegate.m */,
+				DF41819C1A0B0D1D007C30B2 /* ViewController.h */,
+				DF41819D1A0B0D1D007C30B2 /* ViewController.m */,
+				DF41819F1A0B0D1D007C30B2 /* Main.storyboard */,
+				DF4181A21A0B0D1D007C30B2 /* Images.xcassets */,
+				DF4181A41A0B0D1D007C30B2 /* LaunchScreen.xib */,
+				DF4181951A0B0D1D007C30B2 /* Supporting Files */,
+			);
+			path = VMMediaDownloader;
+			sourceTree = "<group>";
+		};
+		DF4181951A0B0D1D007C30B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF4181961A0B0D1D007C30B2 /* Info.plist */,
+				DF4181971A0B0D1D007C30B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF4181AE1A0B0D1D007C30B2 /* VMMediaDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF4181B11A0B0D1D007C30B2 /* VMMediaDownloaderTests.m */,
+				DF4181AF1A0B0D1D007C30B2 /* Supporting Files */,
+			);
+			path = VMMediaDownloaderTests;
+			sourceTree = "<group>";
+		};
+		DF4181AF1A0B0D1D007C30B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF4181B01A0B0D1D007C30B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4181911A0B0D1D007C30B2 /* VMMediaDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4181B51A0B0D1D007C30B2 /* Build configuration list for PBXNativeTarget "VMMediaDownloader" */;
+			buildPhases = (
+				DF41818E1A0B0D1D007C30B2 /* Sources */,
+				DF41818F1A0B0D1D007C30B2 /* Frameworks */,
+				DF4181901A0B0D1D007C30B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMMediaDownloader;
+			productName = VMMediaDownloader;
+			productReference = DF4181921A0B0D1D007C30B2 /* VMMediaDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF4181AA1A0B0D1D007C30B2 /* VMMediaDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4181B81A0B0D1D007C30B2 /* Build configuration list for PBXNativeTarget "VMMediaDownloaderTests" */;
+			buildPhases = (
+				DF4181A71A0B0D1D007C30B2 /* Sources */,
+				DF4181A81A0B0D1D007C30B2 /* Frameworks */,
+				DF4181A91A0B0D1D007C30B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4181AD1A0B0D1D007C30B2 /* PBXTargetDependency */,
+			);
+			name = VMMediaDownloaderTests;
+			productName = VMMediaDownloaderTests;
+			productReference = DF4181AB1A0B0D1D007C30B2 /* VMMediaDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF41818A1A0B0D1D007C30B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Peng Sun";
+				TargetAttributes = {
+					DF4181911A0B0D1D007C30B2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DF4181AA1A0B0D1D007C30B2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DF4181911A0B0D1D007C30B2;
+					};
+				};
+			};
+			buildConfigurationList = DF41818D1A0B0D1D007C30B2 /* Build configuration list for PBXProject "VMMediaDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4181891A0B0D1D007C30B2;
+			productRefGroup = DF4181931A0B0D1D007C30B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4181911A0B0D1D007C30B2 /* VMMediaDownloader */,
+				DF4181AA1A0B0D1D007C30B2 /* VMMediaDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4181901A0B0D1D007C30B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4181A11A0B0D1D007C30B2 /* Main.storyboard in Resources */,
+				DF4181A61A0B0D1D007C30B2 /* LaunchScreen.xib in Resources */,
+				DF4181A31A0B0D1D007C30B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4181A91A0B0D1D007C30B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF41818E1A0B0D1D007C30B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF41819E1A0B0D1D007C30B2 /* ViewController.m in Sources */,
+				DF41819B1A0B0D1D007C30B2 /* AppDelegate.m in Sources */,
+				DF4181981A0B0D1D007C30B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4181A71A0B0D1D007C30B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4181B21A0B0D1D007C30B2 /* VMMediaDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF4181AD1A0B0D1D007C30B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4181911A0B0D1D007C30B2 /* VMMediaDownloader */;
+			targetProxy = DF4181AC1A0B0D1D007C30B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF41819F1A0B0D1D007C30B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4181A01A0B0D1D007C30B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF4181A41A0B0D1D007C30B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4181A51A0B0D1D007C30B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4181B31A0B0D1D007C30B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF4181B41A0B0D1D007C30B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4181B61A0B0D1D007C30B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VMMediaDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF4181B71A0B0D1D007C30B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VMMediaDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF4181B91A0B0D1D007C30B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VMMediaDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMMediaDownloader.app/VMMediaDownloader";
+			};
+			name = Debug;
+		};
+		DF4181BA1A0B0D1D007C30B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VMMediaDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMMediaDownloader.app/VMMediaDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF41818D1A0B0D1D007C30B2 /* Build configuration list for PBXProject "VMMediaDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4181B31A0B0D1D007C30B2 /* Debug */,
+				DF4181B41A0B0D1D007C30B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4181B51A0B0D1D007C30B2 /* Build configuration list for PBXNativeTarget "VMMediaDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4181B61A0B0D1D007C30B2 /* Debug */,
+				DF4181B71A0B0D1D007C30B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF4181B81A0B0D1D007C30B2 /* Build configuration list for PBXNativeTarget "VMMediaDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4181B91A0B0D1D007C30B2 /* Debug */,
+				DF4181BA1A0B0D1D007C30B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF41818A1A0B0D1D007C30B2 /* Project object */;
+}
