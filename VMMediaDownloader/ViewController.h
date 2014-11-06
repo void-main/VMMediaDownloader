@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VideoDownloader.h"
 
-@interface ViewController : UIViewController
+@class MPMoviePlayerViewController;
+@interface ViewController : UIViewController <VideoDownloadDelegate> {
+    VideoDownloader *_downloader;
+}
 
 
 @end
